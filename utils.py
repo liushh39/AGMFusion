@@ -146,7 +146,7 @@ def agm(img_ir, img_vi, fuse, I1, I2, cnt1):
     w2 = cc(img_ir_copy, img_vi_copy, I1_copy)
     w3 = cc(img_ir_copy, img_vi_copy, I2_copy)
     if torch.isnan(w3):
-        w3 = torch.tensor(0)
+        w3 = torch.tensor(0).cuda()
     # avoid negative number
     if w1 < 0 or w2 < 0 or w3 <= 0:
         w1 = w1 + 1
