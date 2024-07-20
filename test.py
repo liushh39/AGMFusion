@@ -181,9 +181,9 @@ def parse_opt():
     # parser.add_argument('--test_path', type=str,
     #                     default='D:\code\Evaluation-for-Image-Fusion-main\Image\Source-Image\MS2\\',
     #                     help='path of data')
-    parser.add_argument('--test_path', type=str, default='./dataset/test', help='path of data')
+    parser.add_argument('--test_path', type=str, default='./dataset/test/MSRS', help='path of data')
     parser.add_argument('--batch_size', type=int, default=1, help='batch size')
-    parser.add_argument('--num_workers', type=int, default=8, help='# of threads for data loader')
+    parser.add_argument('--num_workers', type=int, default=0, help='# of threads for data loader')
     parser.add_argument('--gpu_id', type=int, default=0, help='GPU id')
 
     # test related
