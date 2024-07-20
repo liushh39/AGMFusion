@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ### 3. Inference 🚀
 
 ```bash
-python inference.py
+python test.py
 ```
 
 If the script runs successfully, you will get fusion results named in "fusion_results".
@@ -49,7 +49,7 @@ Or, you can change the input by specifying the `-s` and `-d` arguments:
 
 ```bash
 # more options to see
-python inference.py -h
+python test.py -h
 ```
 
 ## Citation 💖
