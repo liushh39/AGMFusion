@@ -204,5 +204,5 @@ def parse_opt():
 
 
 if __name__ == '__main__':
-    calcTime()
-    # main()
+    #calcTime()
+    main()
