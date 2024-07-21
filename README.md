@@ -9,7 +9,7 @@
 </div>
 
 <div align='center'>
-    <sup>1 </sup>Sun Yat-Sen University&emsp; <sup>2 </sup>Yiren Technology&emsp; <small><sup>†</sup> Corresponding author</small>;
+    <sup>1 </sup>Sun Yat-Sen University&emsp; <sup>2 </sup>Yiren Technology&emsp; <small><sup>†</sup> Corresponding author</small>
 </div>
 
 
