@@ -20,6 +20,7 @@
 This repo, named **AGMFusion**, contains the official PyTorch implementation of our paper [AGMFusion: A Real-Time End-to-End Infrared and Visible Image Fusion Network Based on Adaptive Guidance Module](https://ieeexplore.ieee.org/document/10605610).
 We are actively updating and improving this repository. If you find any bugs or have suggestions, welcome to raise issues or submit pull requests (PR) 💖.
 
+If you are interested in image fusion, you can visit our [IVIF-Code-Interpretation](https://github.com/liushh39/IVIF-Code-Interpretation) to read articles with **open-source code**.
 ## Getting Started 🏁
 ### 1. Clone the code and prepare the environment
 ```bash
