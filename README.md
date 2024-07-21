@@ -13,7 +13,7 @@
 </div>
 
 
-<h1 align="center"><img src="https://github.com/liushh39/AGMFusion/blob/main/img/show.gif" width="600"></h1>
+<h1 align="center"><img src="https://github.com/liushh39/AGMFusion/blob/main/img/show.gif" width="800"></h1>
 
 
 ## Introduction 📖
