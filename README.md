@@ -23,8 +23,8 @@ We are actively updating and improving this repository. If you find any bugs or 
 ## Getting Started 🏁
 ### 1. Clone the code and prepare the environment
 ```bash
-git clone https://github.com/KwaiVGI/LivePortrait
-cd LivePortrait
+git clone https://github.com/liushh39/AGMFusion.git
+cd AGMFusion
 
 # create env using conda
 conda create -n AGMFusion python==3.7.3
@@ -36,14 +36,18 @@ pip install -r requirements.txt
 ```
 
 ### 2. Train
+Download the [dataset](https://pan.baidu.com/s/1PBb-d0mfr1caUKGZGGZMsQ?pwd=udtb), put it in `dataset`
 
+```bash
+python train.py
+```
 ### 3. Inference 🚀
 
 ```bash
 python test.py
 ```
 
-If the script runs successfully, you will get fusion results named in "fusion_results".
+If the script runs successfully, you will get fusion results named in `fusion_results`.
 
 Or, you can change the parameters:
 
@@ -51,6 +55,9 @@ Or, you can change the parameters:
 # more options to see
 python test.py -h
 ```
+
+## Contact Informaiton
+If you have any questions, please feel free to contact me at liushh39@mail2.sysu.edu.cn.
 
 ## Citation 💖
 If you find AGMFusion useful for your research, welcome to 🌟 this repo and cite our work using the following BibTeX:
