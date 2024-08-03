@@ -15,6 +15,9 @@
 
 <h1 align="center"><img src="https://github.com/liushh39/AGMFusion/blob/main/img/show.gif" width="800"></h1>
 
+## 🔥 Updates
+- **`2024/08/03`**: 🤗 We added a description of the dataset and how to make your own dataset.
+- **`2024/07/21`**: 😊 We released the initial version of the code and models. Continuous updates, stay tuned!
 
 ## Introduction 📖
 This repo, named **AGMFusion**, contains the official PyTorch implementation of our paper [AGMFusion: A Real-Time End-to-End Infrared and Visible Image Fusion Network Based on Adaptive Guidance Module](https://ieeexplore.ieee.org/document/10605610).
@@ -38,7 +41,17 @@ pip install -r requirements.txt
 
 ### 2. Train
 Download the [dataset](https://pan.baidu.com/s/1PBb-d0mfr1caUKGZGGZMsQ?pwd=udtb), put it in `dataset`
+```
+├── AGMFusion/dataset
+|     ├──train
+|         ├── img1
+|         ├── img2
+|         ├── vi
+|         ├── ir
+```
+It does not matter if there are blank images in the img2 folder of the downloaded dataset.
 
+Or you can create your dataset by running `python create_dataset.py`
 ```bash
 python train.py
 ```
