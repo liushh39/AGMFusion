@@ -16,7 +16,7 @@
 <h1 align="center"><img src="https://github.com/liushh39/AGMFusion/blob/main/img/show.gif" width="800"></h1>
 
 ## 🔥 Updates
-- **`2024/08/13`**: ✨ We released the paper on [arXiv](https://www.techrxiv.org/users/813809/articles/1215064-agmfusion-a-real-time-end-to-end-infrared-and-visible-image-fusion-network-based-on-adaptive-guidance-module).
+- **`2024/08/13`**: ✨ We released the paper on [TechRxiv](https://www.techrxiv.org/users/813809/articles/1215064-agmfusion-a-real-time-end-to-end-infrared-and-visible-image-fusion-network-based-on-adaptive-guidance-module).
 - **`2024/08/03`**: 🤗 We added a description of the dataset and how to make your own dataset.
 - **`2024/07/21`**: 😊 We released the initial version of the code and models. Continuous updates, stay tuned!
 
