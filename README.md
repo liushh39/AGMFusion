@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ```
 
 ### 2. Train
-Download the [dataset](https://pan.baidu.com/s/1HSLsCShxkL3YOXfC3SD0FA?pwd=1ye4), put it in `dataset`
+Download the [dataset](https://pan.baidu.com/s/1GqxXMHKGudMJT0IsqMmQ3w?pwd=8zki), put it in `dataset`
 ```
 ├── AGMFusion/dataset
 |     ├──train
